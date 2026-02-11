@@ -6,7 +6,7 @@
 /*   By: jdupuis <jdupuis@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/22 20:35:51 by jdupuis           #+#    #+#             */
-/*   Updated: 2025/04/23 00:15:19 by jdupuis          ###   ########.fr       */
+/*   Updated: 2026/02/11 23:20:17 by jdupuis          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ int	main(int ac, char **av)
 
 	if (ac != 3)
 	{
-		write(1, "Argument error: ./client [PID] [STRING]\n", 38);
+		write(1, "Argument error: ./client [PID] [STRING]\n", 41);
 		return (1);
 	}
 	pid = ft_atoi(av[1]);
